@@ -1,0 +1,19 @@
+>>> Cox PH regression (regularized) beta coefficients sorted by absolute value : SUPPORT_ARF_MOSF
+>>> Total number of features : 18
+>>> Number of features with nonzero betas: 15
+
+ca_no : (-0.3190138409502526)
+age : (0.2263013957627341)
+num.co : (0.12256902857340955)
+hrt : (0.0967329721882947)
+ca_yes : (-0.08753816626134538)
+meanbp : (-0.07484309175086973)
+sex_male : (0.033876160805867736)
+race_other : (0.025699514222503737)
+race_white : (-0.02438670789606236)
+crea : (0.01571008502729957)
+diabetes : (-0.012415543383658398)
+race_hispanic : (-0.010707758258201784)
+temp : (-0.010550909923250478)
+resp : (0.008030445791369906)
+sod : (0.0017083963603255433)

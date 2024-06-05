@@ -1,0 +1,21 @@
+Loading SUPPORT_Coma dataset...
+  Total samples=592
+  Total features=21
+Configuring experiments...
+  Model=deepsurv
+  Params={'params': {'layers': [1, 2, 4], 'nodes_per_layer': [16, 32, 64], 'dropout': [0.0], 'weight_decay': [0.0], 'batch_size': [256], 'lr': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'dropout': 0.0, 'layers': 2, 'lr': 0.001, 'nodes_per_layer': 32, 'weight_decay': 0.0, 'random_state': 1537677166}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.5219527172244397, 'concordance_median': 0.5181148295977894, 'integrated_brier': 0.20934537694773359, 'rmse': 533.9136479854722, 'mae': 208.60824742268042}
+  >> Iter 0 bootstrapped : MEAN [5.20549959e-01 5.16616876e-01 2.09806413e-01 5.30772675e+02
+ 2.10909132e+02]
+  >> Iter 0 bootstrapped : MEDIAN [5.21020673e-01 5.17084665e-01 2.09519267e-01 5.28158407e+02
+ 2.07579951e+02]
+  >> Iter 0 bootstrapped : Q=0.025 [4.51672576e-01 4.48475371e-01 1.51331899e-01 3.61219544e+02
+ 1.25637255e+02]
+  >> Iter 0 bootstrapped : Q=0.975 [5.88181680e-01 5.84203359e-01 2.67708396e-01 6.96043591e+02
+ 3.11524272e+02]
+Finished!

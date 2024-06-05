@@ -1,0 +1,21 @@
+Loading SUPPORT_Cancer dataset...
+  Total samples=1413
+  Total features=18
+Configuring experiments...
+  Model=deepsurv
+  Params={'params': {'layers': [1, 2, 4], 'nodes_per_layer': [16, 32, 64], 'dropout': [0.0], 'weight_decay': [0.0], 'batch_size': [256], 'lr': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'dropout': 0.0, 'layers': 1, 'lr': 0.01, 'nodes_per_layer': 64, 'weight_decay': 0.0, 'random_state': 2335263485}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.5732622787015449, 'concordance_median': 0.5728267274730342, 'integrated_brier': 0.1288628810014515, 'rmse': 209.39584295687212, 'mae': 151.65079365079364}
+  >> Iter 0 bootstrapped : MEAN [5.73037955e-01 5.72621821e-01 1.30799236e-01 2.09179701e+02
+ 1.51734971e+02]
+  >> Iter 0 bootstrapped : MEDIAN [5.73242921e-01 5.72859441e-01 1.30538627e-01 2.09208485e+02
+ 1.51652681e+02]
+  >> Iter 0 bootstrapped : Q=0.025 [5.35835041e-01 5.35297131e-01 1.09462339e-01 1.80348538e+02
+ 1.34810484e+02]
+  >> Iter 0 bootstrapped : Q=0.975 [6.10960585e-01 6.10820133e-01 1.55233774e-01 2.38734551e+02
+ 1.70118367e+02]
+Finished!

@@ -1,0 +1,20 @@
+Loading SUPPORT_COPD_CHF_Cirrhosis dataset...
+  Total samples=2854
+  Total features=56
+Configuring experiments...
+  Model=scholar_ldadraft
+  Params={'params': {'steck_weight': [1.0], 'embedding_dim': [16, 32, 64], 'survival_loss_weight': [1.0, 100.0, 10000.0, 1000000.0], 'n_topics': [2, 3, 4, 5, 6], 'batch_size': [256], 'learning_rate': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'embedding_dim': 64, 'learning_rate': 0.01, 'n_topics': 2, 'steck_weight': 1.0, 'survival_loss_weight': 10000.0, 'random_state': 1062597193}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.543598599910567, 'concordance_median': 0.5436140193977148, 'integrated_brier': 0.47839322337169043, 'rmse': 499.947, 'mae': 320.04407}
+  >> Iter 0 bootstrapped : MEAN [5.44242016e-01 5.44256082e-01 4.77962211e-01 4.98805069e+02
+ 3.19774997e+02]
+  >> Iter 0 bootstrapped : MEDIAN [5.44302617e-01 5.44356776e-01 4.78183221e-01 4.99161087e+02
+ 3.19670853e+02]
+  >> Iter 0 bootstrapped : Q=0.025 [  0.50959703   0.50958915   0.44310194 440.79718018 280.02432251]
+  >> Iter 0 bootstrapped : Q=0.975 [5.79065726e-01 5.79053932e-01 5.14133414e-01 5.49868164e+02
+ 3.60226807e+02]
+Finished!

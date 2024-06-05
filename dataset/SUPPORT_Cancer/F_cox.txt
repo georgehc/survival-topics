@@ -1,0 +1,16 @@
+age
+num.co
+diabetes
+dementia
+meanbp
+hrt
+resp
+temp
+wblc
+sod
+crea
+sex_male
+race_black
+race_hispanic
+race_other
+race_white

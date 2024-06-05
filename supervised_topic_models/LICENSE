@@ -1,0 +1,18 @@
+The Apache license below applies to the two code files in this directory:
+`scholar.py` and `sparse_scholar.py`. All other code files in this
+repository are under an MIT license given in `../LICENSE` (the LICENSE file in
+the root directory of the repository).
+
+Note that the two files `scholar.py` and `sparse_scholar.py` are slightly
+modified from Dallas Card's code (the modifications are by George H. Chen and
+are specifically to add survival supervision, to support an approximation to
+LDA as the topic model, and to encourage sparsity in SAGE); the original code
+is here:
+
+    https://github.com/dallascard/scholar/blob/master/scholar.py
+
+The license file can be found here (for which our modified versions use the
+same license especially as the modifications we have made are rather limited;
+the license file is the Apache License 2.0):
+
+    https://github.com/dallascard/scholar/blob/master/LICENSE

@@ -1,0 +1,21 @@
+Loading SUPPORT_Cancer dataset...
+  Total samples=1413
+  Total features=52
+Configuring experiments...
+  Model=scholar_sagedraft
+  Params={'params': {'embedding_dim': [16, 32, 64], 'survival_loss_weight': [1.0, 100.0, 10000.0, 1000000.0], 'n_topics': [2, 3, 4, 5, 6], 'batch_size': [256], 'learning_rate': [0.01, 0.001], 'topic_l2_reg': [0.01, 0.1, 1.0, 10.0], 'steck_weight': [1.0]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'embedding_dim': 64, 'learning_rate': 0.01, 'n_topics': 2, 'steck_weight': 1.0, 'survival_loss_weight': 100.0, 'topic_l2_reg': 10.0, 'random_state': 1277322594}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.553713714739566, 'concordance_median': 0.553713714739566, 'integrated_brier': 0.1938113732018192, 'rmse': 269.48657, 'mae': 181.4373}
+  >> Iter 0 bootstrapped : MEAN [5.54064350e-01 5.54064350e-01 1.97259332e-01 2.69096007e+02
+ 1.81345871e+02]
+  >> Iter 0 bootstrapped : MEDIAN [5.54182465e-01 5.54182465e-01 1.96751280e-01 2.69758926e+02
+ 1.81282127e+02]
+  >> Iter 0 bootstrapped : Q=0.025 [5.11326363e-01 5.11326363e-01 1.64442803e-01 2.32255051e+02
+ 1.57013901e+02]
+  >> Iter 0 bootstrapped : Q=0.975 [5.94976492e-01 5.94976492e-01 2.32849852e-01 3.05947540e+02
+ 2.06374557e+02]
+Finished!

@@ -1,0 +1,22 @@
+>>> Cox PH regression (regularized) beta coefficients sorted by absolute value : SUPPORT_COPD_CHF_Cirrhosis
+>>> Total number of features : 18
+>>> Number of features with nonzero betas: 18
+
+ca_yes : (-0.27867385377352916)
+ca_no : (-0.27260102502900097)
+age : (0.19451555866047832)
+num.co : (0.12439154151760493)
+resp : (0.08325505614916429)
+dementia : (0.07521409916148815)
+sod : (-0.07329648603509589)
+sex_male : (0.06920431140853417)
+temp : (-0.057258964603343177)
+crea : (0.056530548354221166)
+meanbp : (-0.04521610812610242)
+race_white : (-0.03929258181768821)
+race_black : (-0.036461571991548564)
+race_hispanic : (-0.023602708928960138)
+hrt : (0.021999869118099584)
+race_other : (-0.004836775575316962)
+diabetes : (-0.0020821170709018648)
+wblc : (-0.001783814994314876)

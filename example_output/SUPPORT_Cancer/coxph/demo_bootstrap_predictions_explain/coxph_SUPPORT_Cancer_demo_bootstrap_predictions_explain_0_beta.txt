@@ -1,0 +1,19 @@
+>>> Cox PH regression (regularized) beta coefficients sorted by absolute value : SUPPORT_Cancer
+>>> Total number of features : 16
+>>> Number of features with nonzero betas: 15
+
+age : (0.11670031712673982)
+race_black : (0.1155194473998804)
+num.co : (0.11466576896250559)
+wblc : (0.11249550129524535)
+hrt : (0.08707715445558878)
+meanbp : (-0.0579424593513315)
+resp : (0.05574877515397046)
+temp : (-0.030885510751933503)
+crea : (0.024836275068163563)
+sex_male : (0.022796533195466463)
+dementia : (0.02093065258356867)
+sod : (-0.01924772546988785)
+race_other : (-0.01534057302702538)
+diabetes : (-0.010664639699314565)
+race_hispanic : (0.008534868993085504)

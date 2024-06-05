@@ -1,0 +1,17 @@
+Loading SUPPORT_ARF_MOSF dataset...
+  Total samples=4203
+  Total features=55
+Configuring experiments...
+  Model=scholar_ldadraft
+  Params={'params': {'steck_weight': [1.0], 'embedding_dim': [16, 32, 64], 'survival_loss_weight': [1.0, 100.0, 10000.0, 1000000.0], 'n_topics': [2, 3, 4, 5, 6], 'batch_size': [256], 'learning_rate': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'embedding_dim': 64, 'learning_rate': 0.01, 'n_topics': 5, 'steck_weight': 1.0, 'survival_loss_weight': 1000000.0, 'random_state': 3557680530}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.6311314650140424, 'concordance_median': 0.6311314650140424, 'integrated_brier': 0.3963377239967461, 'rmse': 329.21854, 'mae': 154.25786}
+  >> Iter 0 bootstrapped : MEAN [  0.63169072   0.63169072   0.39784118 328.65803302 154.34336511]
+  >> Iter 0 bootstrapped : MEDIAN [  0.6320899    0.6320899    0.39769957 328.06152344 154.10446167]
+  >> Iter 0 bootstrapped : Q=0.025 [  0.60554456   0.60554456   0.36676495 282.62405396 131.44406128]
+  >> Iter 0 bootstrapped : Q=0.975 [  0.65662665   0.65662665   0.42959959 375.37991333 178.99287415]
+Finished!

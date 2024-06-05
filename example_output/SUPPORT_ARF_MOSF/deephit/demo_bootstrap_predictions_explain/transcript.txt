@@ -1,0 +1,21 @@
+Loading SUPPORT_ARF_MOSF dataset...
+  Total samples=4203
+  Total features=21
+Configuring experiments...
+  Model=deephit
+  Params={'params': {'nodes_per_layer': [16, 32, 64], 'layers': [1, 2, 4], 'dropout': [0.0], 'weight_decay': [0.0], 'batch_size': [256], 'num_durations': [64, 128], 'alpha': [0.1, 0.5, 0.9], 'sigma': [0.1, 1.0, 10.0], 'lr': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'alpha': 0.5, 'batch_size': 256, 'dropout': 0.0, 'layers': 1, 'lr': 0.001, 'nodes_per_layer': 64, 'num_durations': 128, 'sigma': 10.0, 'weight_decay': 0.0, 'random_state': 193039269}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.6358178288626645, 'concordance_median': 0.647355289754041, 'integrated_brier': 0.19700198831795693, 'rmse': 641.314344389308, 'mae': 428.90801875512096}
+  >> Iter 0 bootstrapped : MEAN [6.36104716e-01 6.47786886e-01 1.97114755e-01 6.39955858e+02
+ 4.28374414e+02]
+  >> Iter 0 bootstrapped : MEDIAN [6.36678410e-01 6.47906408e-01 1.97078414e-01 6.39081333e+02
+ 4.27828653e+02]
+  >> Iter 0 bootstrapped : Q=0.025 [6.10499101e-01 6.21827776e-01 1.85271300e-01 5.90898813e+02
+ 3.89545233e+02]
+  >> Iter 0 bootstrapped : Q=0.975 [6.61905623e-01 6.72881070e-01 2.09377171e-01 6.91015686e+02
+ 4.68543584e+02]
+Finished!

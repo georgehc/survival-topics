@@ -1,0 +1,17 @@
+Loading SUPPORT_ARF_MOSF dataset...
+  Total samples=4203
+  Total features=55
+Configuring experiments...
+  Model=scholar_ldacox
+  Params={'params': {'embedding_dim': [16, 32, 64, 128], 'survival_loss_weight': [1.0, 100.0, 10000.0, 1000000.0], 'n_topics': [2, 3, 4, 5, 6], 'batch_size': [128, 256], 'learning_rate': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'embedding_dim': 64, 'learning_rate': 0.01, 'n_topics': 3, 'survival_loss_weight': 100.0}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.6361613843618874, 'concordance_median': nan, 'integrated_brier': nan, 'rmse': nan, 'mae': nan}
+  >> Iter 0 bootstrapped : MEAN [0.63667567        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : MEDIAN [0.63694316        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.025 [0.61151149        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.975 [0.66242066        nan        nan        nan        nan]
+Finished!

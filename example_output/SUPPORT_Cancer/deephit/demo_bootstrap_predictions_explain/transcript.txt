@@ -1,0 +1,21 @@
+Loading SUPPORT_Cancer dataset...
+  Total samples=1413
+  Total features=18
+Configuring experiments...
+  Model=deephit
+  Params={'params': {'nodes_per_layer': [16, 32, 64], 'layers': [1, 2, 4], 'dropout': [0.0], 'weight_decay': [0.0], 'batch_size': [256], 'num_durations': [64, 128], 'alpha': [0.1, 0.5, 0.9], 'sigma': [0.1, 1.0, 10.0], 'lr': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'alpha': 0.5, 'batch_size': 256, 'dropout': 0.0, 'layers': 1, 'lr': 0.001, 'nodes_per_layer': 32, 'num_durations': 128, 'sigma': 0.1, 'weight_decay': 0.0, 'random_state': 4026172098}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.5494094437754605, 'concordance_median': 0.5467705157438959, 'integrated_brier': 0.2820852337242835, 'rmse': 763.5424679304043, 'mae': 740.2899020724826}
+  >> Iter 0 bootstrapped : MEAN [5.49821836e-01 5.46424847e-01 2.87909140e-01 7.63686633e+02
+ 7.40452093e+02]
+  >> Iter 0 bootstrapped : MEDIAN [5.50297147e-01 5.46619812e-01 2.85606548e-01 7.63770195e+02
+ 7.40727562e+02]
+  >> Iter 0 bootstrapped : Q=0.025 [5.08506616e-01 5.09141331e-01 2.74267353e-01 7.44005049e+02
+ 7.17087440e+02]
+  >> Iter 0 bootstrapped : Q=0.975 [5.89659417e-01 5.84453945e-01 3.10058892e-01 7.83119345e+02
+ 7.63757169e+02]
+Finished!

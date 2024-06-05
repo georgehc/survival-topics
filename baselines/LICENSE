@@ -1,0 +1,10 @@
+The three files `baselines/nonparametric_survival_models.py`,
+`baselines/random_survival_forest_cython.pyx`, and
+`setup_random_survival_forest_cython.py` are from George H. Chen's earlier
+repository npsurvival:
+
+    https://github.com/georgehc/npsurvival
+
+The original license file can be found here (MIT license):
+
+    https://github.com/georgehc/npsurvival/blob/master/LICENSE

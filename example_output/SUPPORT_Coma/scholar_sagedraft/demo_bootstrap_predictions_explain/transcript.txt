@@ -1,0 +1,20 @@
+Loading SUPPORT_Coma dataset...
+  Total samples=592
+  Total features=55
+Configuring experiments...
+  Model=scholar_sagedraft
+  Params={'params': {'embedding_dim': [16, 32, 64], 'survival_loss_weight': [1.0, 100.0, 10000.0, 1000000.0], 'n_topics': [2, 3, 4, 5, 6], 'batch_size': [256], 'learning_rate': [0.01, 0.001], 'topic_l2_reg': [0.01, 0.1, 1.0, 10.0], 'steck_weight': [1.0]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'embedding_dim': 32, 'learning_rate': 0.01, 'n_topics': 5, 'steck_weight': 1.0, 'survival_loss_weight': 1000000.0, 'topic_l2_reg': 1.0, 'random_state': 2976568899}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.5171937365673933, 'concordance_median': 0.5171937365673933, 'integrated_brier': 0.20530327590270073, 'rmse': 221.4863, 'mae': 66.24879}
+  >> Iter 0 bootstrapped : MEAN [5.15455000e-01 5.15455000e-01 2.06151208e-01 2.15305761e+02
+ 6.69947889e+01]
+  >> Iter 0 bootstrapped : MEDIAN [5.13971264e-01 5.13971264e-01 2.05854813e-01 2.15259384e+02
+ 6.49129448e+01]
+  >> Iter 0 bootstrapped : Q=0.025 [ 0.45001552  0.45001552  0.14163463 87.15512848 31.88933754]
+  >> Iter 0 bootstrapped : Q=0.975 [5.80821918e-01 5.80821918e-01 2.74967475e-01 3.34474396e+02
+ 1.14942627e+02]
+Finished!

@@ -1,0 +1,21 @@
+Loading SUPPORT_ARF_MOSF dataset...
+  Total samples=4203
+  Total features=21
+Configuring experiments...
+  Model=deepsurv
+  Params={'params': {'layers': [1, 2, 4], 'nodes_per_layer': [16, 32, 64], 'dropout': [0.0], 'weight_decay': [0.0], 'batch_size': [256], 'lr': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'dropout': 0.0, 'layers': 1, 'lr': 0.001, 'nodes_per_layer': 16, 'weight_decay': 0.0, 'random_state': 3236982921}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.6439230702520964, 'concordance_median': 0.642101892557187, 'integrated_brier': 0.1933270881697824, 'rmse': 664.7851441051298, 'mae': 393.1808118081181}
+  >> Iter 0 bootstrapped : MEAN [6.44236158e-01 6.42445444e-01 1.93542895e-01 6.62616758e+02
+ 3.92420626e+02]
+  >> Iter 0 bootstrapped : MEDIAN [6.44434808e-01 6.42550047e-01 1.93916384e-01 6.62336926e+02
+ 3.92649044e+02]
+  >> Iter 0 bootstrapped : Q=0.025 [6.18974717e-01 6.17226529e-01 1.81924691e-01 6.01339710e+02
+ 3.49489720e+02]
+  >> Iter 0 bootstrapped : Q=0.975 [6.70827199e-01 6.69441682e-01 2.04016589e-01 7.27560519e+02
+ 4.39073801e+02]
+Finished!

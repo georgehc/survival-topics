@@ -1,0 +1,17 @@
+Loading SUPPORT_Coma dataset...
+  Total samples=592
+  Total features=55
+Configuring experiments...
+  Model=scholar_sagecox
+  Params={'params': {'embedding_dim': [16, 32, 64], 'survival_loss_weight': [1.0, 100.0, 10000.0, 1000000.0], 'n_topics': [2, 3, 4, 5, 6], 'batch_size': [256], 'learning_rate': [0.01, 0.001], 'topic_l2_reg': [0.01, 0.1, 1.0, 10.0]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'embedding_dim': 64, 'learning_rate': 0.001, 'n_topics': 4, 'survival_loss_weight': 1.0, 'topic_l2_reg': 10.0, 'random_state': 1854014397}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.5155818237642001, 'concordance_median': nan, 'integrated_brier': nan, 'rmse': nan, 'mae': nan}
+  >> Iter 0 bootstrapped : MEAN [0.51416948        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : MEDIAN [0.51316605        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.025 [0.44224344        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.975 [0.59119879        nan        nan        nan        nan]
+Finished!

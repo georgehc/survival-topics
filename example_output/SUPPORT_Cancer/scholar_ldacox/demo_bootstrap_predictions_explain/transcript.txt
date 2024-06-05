@@ -1,0 +1,17 @@
+Loading SUPPORT_Cancer dataset...
+  Total samples=1413
+  Total features=52
+Configuring experiments...
+  Model=scholar_ldacox
+  Params={'params': {'embedding_dim': [16, 32, 64, 128], 'survival_loss_weight': [1.0, 100.0, 10000.0, 1000000.0], 'n_topics': [2, 3, 4, 5, 6], 'batch_size': [128, 256], 'learning_rate': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'embedding_dim': 32, 'learning_rate': 0.01, 'n_topics': 6, 'survival_loss_weight': 1000000.0}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.5693679383054495, 'concordance_median': nan, 'integrated_brier': nan, 'rmse': nan, 'mae': nan}
+  >> Iter 0 bootstrapped : MEAN [0.5697445       nan       nan       nan       nan]
+  >> Iter 0 bootstrapped : MEDIAN [0.56908219        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.025 [0.53270426        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.975 [0.60834197        nan        nan        nan        nan]
+Finished!

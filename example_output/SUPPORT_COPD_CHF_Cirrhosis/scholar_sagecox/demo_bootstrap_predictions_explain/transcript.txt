@@ -1,0 +1,17 @@
+Loading SUPPORT_COPD_CHF_Cirrhosis dataset...
+  Total samples=2854
+  Total features=56
+Configuring experiments...
+  Model=scholar_sagecox
+  Params={'params': {'embedding_dim': [16, 32, 64], 'survival_loss_weight': [1.0, 100.0, 10000.0, 1000000.0], 'n_topics': [2, 3, 4, 5, 6], 'batch_size': [256], 'learning_rate': [0.01, 0.001], 'topic_l2_reg': [0.01, 0.1, 1.0, 10.0]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'embedding_dim': 64, 'learning_rate': 0.001, 'n_topics': 2, 'survival_loss_weight': 10000.0, 'topic_l2_reg': 0.01, 'random_state': 1408022689}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.5223158527747367, 'concordance_median': nan, 'integrated_brier': nan, 'rmse': nan, 'mae': nan}
+  >> Iter 0 bootstrapped : MEAN [0.52289386        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : MEDIAN [0.52297129        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.025 [0.48808822        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.975 [0.55692194        nan        nan        nan        nan]
+Finished!

@@ -1,0 +1,17 @@
+Loading SUPPORT_ARF_MOSF dataset...
+  Total samples=4203
+  Total features=55
+Configuring experiments...
+  Model=scholar_sagedraft
+  Params={'params': {'embedding_dim': [16, 32, 64], 'survival_loss_weight': [1.0, 100.0, 10000.0, 1000000.0], 'n_topics': [2, 3, 4, 5, 6], 'batch_size': [256], 'learning_rate': [0.01, 0.001], 'topic_l2_reg': [0.01, 0.1, 1.0, 10.0], 'steck_weight': [1.0]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'embedding_dim': 64, 'learning_rate': 0.01, 'n_topics': 5, 'steck_weight': 1.0, 'survival_loss_weight': 10000.0, 'topic_l2_reg': 0.1, 'random_state': 2417644755}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.6042207294050153, 'concordance_median': 0.6042190616598734, 'integrated_brier': 0.39624147587062103, 'rmse': 329.10245, 'mae': 154.01044}
+  >> Iter 0 bootstrapped : MEAN [  0.60507629   0.60507469   0.39774488 328.5413768  154.09517152]
+  >> Iter 0 bootstrapped : MEDIAN [  0.60512272   0.6051303    0.39759555 327.94287109 153.87036133]
+  >> Iter 0 bootstrapped : Q=0.025 [  0.57937068   0.57937397   0.366552   282.50750732 131.19367981]
+  >> Iter 0 bootstrapped : Q=0.975 [  0.62986102   0.62986929   0.42963832 375.27340698 178.74476624]
+Finished!

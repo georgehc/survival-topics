@@ -1,0 +1,21 @@
+Loading SUPPORT_COPD_CHF_Cirrhosis dataset...
+  Total samples=2854
+  Total features=21
+Configuring experiments...
+  Model=deephit
+  Params={'params': {'nodes_per_layer': [16, 32, 64], 'layers': [1, 2, 4], 'dropout': [0.0], 'weight_decay': [0.0], 'batch_size': [256], 'num_durations': [64, 128], 'alpha': [0.1, 0.5, 0.9], 'sigma': [0.1, 1.0, 10.0], 'lr': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'alpha': 0.5, 'batch_size': 256, 'dropout': 0.0, 'layers': 2, 'lr': 0.01, 'nodes_per_layer': 64, 'num_durations': 64, 'sigma': 1.0, 'weight_decay': 0.0, 'random_state': 188619144}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.5793255516321527, 'concordance_median': 0.533217430188272, 'integrated_brier': 0.24193016137714232, 'rmse': 760.4803605232819, 'mae': 694.6465945802886}
+  >> Iter 0 bootstrapped : MEAN [5.79719343e-01 5.33017344e-01 2.42050209e-01 7.60218099e+02
+ 6.94549076e+02]
+  >> Iter 0 bootstrapped : MEDIAN [5.79463513e-01 5.32465602e-01 2.42096962e-01 7.61245628e+02
+ 6.94494686e+02]
+  >> Iter 0 bootstrapped : Q=0.025 [5.45419472e-01 4.97572006e-01 2.33239778e-01 7.33114405e+02
+ 6.62158369e+02]
+  >> Iter 0 bootstrapped : Q=0.975 [6.13389057e-01 5.68898340e-01 2.50613764e-01 7.87962969e+02
+ 7.26906221e+02]
+Finished!

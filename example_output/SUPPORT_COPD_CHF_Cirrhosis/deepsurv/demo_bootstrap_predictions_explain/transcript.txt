@@ -1,0 +1,21 @@
+Loading SUPPORT_COPD_CHF_Cirrhosis dataset...
+  Total samples=2854
+  Total features=21
+Configuring experiments...
+  Model=deepsurv
+  Params={'params': {'layers': [1, 2, 4], 'nodes_per_layer': [16, 32, 64], 'dropout': [0.0], 'weight_decay': [0.0], 'batch_size': [256], 'lr': [0.01, 0.001]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'batch_size': 256, 'dropout': 0.0, 'layers': 2, 'lr': 0.01, 'nodes_per_layer': 64, 'weight_decay': 0.0, 'random_state': 337711540}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.551485667586696, 'concordance_median': 0.551485667586696, 'integrated_brier': 0.2275205094283789, 'rmse': 709.3584036490906, 'mae': 568.9022988505748}
+  >> Iter 0 bootstrapped : MEAN [5.51279615e-01 5.51275975e-01 2.27563961e-01 7.07896554e+02
+ 5.68404369e+02]
+  >> Iter 0 bootstrapped : MEDIAN [5.51610005e-01 5.51565436e-01 2.27418303e-01 7.06775739e+02
+ 5.67734699e+02]
+  >> Iter 0 bootstrapped : Q=0.025 [5.17909815e-01 5.17976497e-01 2.18215214e-01 6.55018175e+02
+ 5.23531073e+02]
+  >> Iter 0 bootstrapped : Q=0.975 [5.82668611e-01 5.82831943e-01 2.37340147e-01 7.60797561e+02
+ 6.11777778e+02]
+Finished!

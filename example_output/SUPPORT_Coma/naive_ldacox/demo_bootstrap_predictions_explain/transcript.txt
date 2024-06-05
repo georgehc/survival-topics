@@ -1,0 +1,17 @@
+Loading SUPPORT_Coma dataset...
+  Total samples=592
+  Total features=55
+Configuring experiments...
+  Model=naive_ldacox
+  Params={'params': {'n_topics': [2, 3, 4, 5, 6]}}
+  Tuning scheme=grid
+  Train/Test Split Repeats=1
+  Training fraction=0.8
+  Random seed=47
+  >> Iter 0 best params:  {'n_topics': 6, 'random_state': 1852460525}
+  >> Iter 0 metrics:  {'concordance_antolini': 0.5408351243475591, 'concordance_median': nan, 'integrated_brier': nan, 'rmse': nan, 'mae': nan}
+  >> Iter 0 bootstrapped : MEAN [0.54123548        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : MEDIAN [0.54098142        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.025 [0.47054252        nan        nan        nan        nan]
+  >> Iter 0 bootstrapped : Q=0.975 [0.61437908        nan        nan        nan        nan]
+Finished!

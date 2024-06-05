@@ -1,0 +1,18 @@
+>>> Cox PH regression (regularized) beta coefficients sorted by absolute value : SUPPORT_Coma
+>>> Total number of features : 18
+>>> Number of features with nonzero betas: 14
+
+age : (0.28627968094662326)
+meanbp : (-0.10012825662584665)
+sod : (0.08570658285542729)
+crea : (0.07155602180168982)
+race_other : (0.06672208034871287)
+temp : (0.032647665981007906)
+ca_yes : (-0.027381037559871653)
+num.co : (-0.016002412624392417)
+race_black : (-0.015170805537711569)
+race_hispanic : (-0.012343066251716436)
+hrt : (0.009736356639027392)
+sex_male : (0.0061806414430061705)
+wblc : (0.0015217790620814685)
+dementia : (-0.0006441411464924685)

@@ -1,0 +1,1 @@
+{"params": {"embedding_dim": [16, 32, 64], "survival_loss_weight": [1.0, 100.0, 10000.0, 1000000.0], "n_topics": [2, 3, 4, 5, 6], "batch_size": [256], "learning_rate": [0.01, 0.001], "topic_l2_reg": [0.01, 0.1, 1.0, 10.0], "steck_weight": [1.0]}}
